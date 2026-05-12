@@ -2,27 +2,25 @@ This project is a simple command-line Rock, Paper, Scissors game built in Python
 
 The program includes error handling using exceptions to ensure the user enters a valid choice. If an invalid input (such as "ABC" or "Rocker") is entered, the program will prompt the user again until a correct option is provided.
 
-Features
-User vs Computer gameplay
-Random computer choices
-Input validation with error handling (try/except)
-Continuous prompting until valid input is entered
-Clear win/lose/tie outcomes
-Technologies Used
+Features:
+1. User vs Computer gameplay
+2. Random computer choices
+3. Input validation with error handling (try/except)
+4. Continuous prompting until valid input is entered
+5. Clear win/lose/tie outcomes
+
+Technologies Used:
 Python
 random library (for generating the computer’s choice)
-How to Run the Program
-Make sure Python is installed on your computer.
-Copy or download the code.
 
-Run the script in your terminal or IDE:
+How to Run the Program:
+1. Make sure Python is installed on your computer.
+2. Copy or download the code.
+3. Run the script in your terminal or IDE: python filename.py
 
-python filename.py
+4. Enter your choice when prompted: rock, paper, or scissors
 
-Enter your choice when prompted:
-
-rock, paper, or scissors
-Example Output
+Example Output:
 Enter a choice of rock, paper, or scissors: rock
 You chose rock. Computer chose scissors.
 Rock smashes scissors. You win.
